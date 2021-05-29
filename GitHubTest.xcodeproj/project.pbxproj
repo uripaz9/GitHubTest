@@ -13,6 +13,7 @@
 		914024842661EB830058BB4D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 914024832661EB830058BB4D /* Preview Assets.xcassets */; };
 		9140248F2661EB830058BB4D /* GitHubTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9140248E2661EB830058BB4D /* GitHubTestTests.swift */; };
 		9140249A2661EB840058BB4D /* GitHubTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 914024992661EB840058BB4D /* GitHubTestUITests.swift */; };
+		914024AB2661F38E0058BB4D /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 914024AA2661F38E0058BB4D /* Storyboard.storyboard */; settings = {ASSET_TAGS = (123, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		914024952661EB840058BB4D /* GitHubTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitHubTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		914024992661EB840058BB4D /* GitHubTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubTestUITests.swift; sourceTree = "<group>"; };
 		9140249B2661EB840058BB4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		914024AA2661F38E0058BB4D /* Storyboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				914024802661EB830058BB4D /* Assets.xcassets */,
 				914024852661EB830058BB4D /* Info.plist */,
 				914024822661EB830058BB4D /* Preview Content */,
+				914024AA2661F38E0058BB4D /* Storyboard.storyboard */,
 			);
 			path = GitHubTest;
 			sourceTree = "<group>";
@@ -192,6 +195,9 @@
 		914024712661EB810058BB4D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				KnownAssetTags = (
+					123,
+				);
 				LastSwiftUpdateCheck = 1240;
 				LastUpgradeCheck = 1240;
 				TargetAttributes = {
@@ -235,6 +241,7 @@
 			files = (
 				914024842661EB830058BB4D /* Preview Assets.xcassets in Resources */,
 				914024812661EB830058BB4D /* Assets.xcassets in Resources */,
+				914024AB2661F38E0058BB4D /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
