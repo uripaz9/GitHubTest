@@ -13,6 +13,7 @@ struct ContentView: View {
             .font(.body)
             .fontWeight(.bold)
             .padding()
+        .padding()
     }
 }
 
